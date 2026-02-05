@@ -20,7 +20,7 @@ k.scene("level", async () => {
         createFloor();
         createBorders();
         createPlayer();
-        //createScore();
+        createScore();
 
         uiManager.initializeMobileControls();
 
